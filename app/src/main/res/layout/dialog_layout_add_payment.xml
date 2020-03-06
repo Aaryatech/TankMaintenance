@@ -1,0 +1,259 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_heading"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:layout_marginTop="10dp"
+        android:layout_weight="1"
+        android:gravity="center"
+        android:padding="5dp"
+        android:text="Add Payment"
+        android:fontFamily="@font/sofiapro_bold"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="18sp" />
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+            <EditText
+                android:id="@+id/tvName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:hint="User Name"
+                android:inputType="none"
+                android:maxLines="1"
+                android:padding="15dp"
+                android:singleLine="true" />
+        </android.support.design.widget.TextInputLayout>
+
+        <!--<TextView-->
+            <!--android:id="@+id/tvName"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_margin="5dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:fontFamily="@font/sofiapro_bold"-->
+            <!--android:padding="5dp"-->
+            <!--android:textSize="17sp"-->
+            <!--android:textColor="@color/colorPrimary" />-->
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+            <EditText
+                android:id="@+id/tvMob"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:hint="Mobile"
+                android:inputType="none"
+                android:maxLines="1"
+                android:padding="15dp"
+                android:singleLine="true" />
+        </android.support.design.widget.TextInputLayout>
+
+        <!--<TextView-->
+            <!--android:id="@+id/tvMob"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_margin="5dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:fontFamily="@font/sofiapro_bold"-->
+            <!--android:gravity="start"-->
+            <!--android:textSize="17sp"-->
+            <!--android:padding="5dp"-->
+            <!--android:textColor="@color/colorPrimary" />-->
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+            <EditText
+                android:id="@+id/tvLocation"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:hint="Location"
+                android:inputType="none"
+                android:maxLines="1"
+                android:padding="15dp"
+                android:singleLine="true" />
+        </android.support.design.widget.TextInputLayout>
+
+
+        <!--<TextView-->
+            <!--android:id="@+id/tvLocation"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_margin="5dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:fontFamily="@font/sofiapro_bold"-->
+            <!--android:gravity="start"-->
+            <!--android:textSize="17sp"-->
+            <!--android:padding="5dp"-->
+            <!--android:textColor="@color/colorPrimary" />-->
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+            <EditText
+                android:id="@+id/tvPayAmt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:hint="Payment Amount"
+                android:inputType="none"
+                android:maxLines="1"
+                android:padding="15dp"
+                android:singleLine="true" />
+        </android.support.design.widget.TextInputLayout>
+
+        <!--<TextView-->
+            <!--android:id="@+id/tvPayAmt"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_margin="5dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:fontFamily="@font/sofiapro_bold"-->
+            <!--android:gravity="start"-->
+            <!--android:textSize="17sp"-->
+            <!--android:padding="5dp"-->
+            <!--android:textColor="@color/colorPrimary" />-->
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+            <EditText
+                android:id="@+id/tvWorkAmt"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:hint="Work Amount"
+                android:inputType="none"
+                android:maxLines="1"
+                android:padding="15dp"
+                android:singleLine="true" />
+        </android.support.design.widget.TextInputLayout>
+
+        <!--<TextView-->
+            <!--android:id="@+id/tvWorkAmt"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_margin="5dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:fontFamily="@font/sofiapro_bold"-->
+            <!--android:gravity="start"-->
+            <!--android:textSize="17sp"-->
+            <!--android:padding="5dp"-->
+            <!--android:textColor="@color/colorPrimary" />-->
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+            <EditText
+                android:id="@+id/tvPending"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:hint="Pending Amount"
+                android:inputType="none"
+                android:maxLines="1"
+                android:padding="15dp"
+                android:singleLine="true" />
+        </android.support.design.widget.TextInputLayout>
+
+        <!--<TextView-->
+            <!--android:id="@+id/tvPending"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_margin="5dp"-->
+            <!--android:layout_weight="1"-->
+            <!--android:fontFamily="@font/sofiapro_bold"-->
+            <!--android:gravity="start"-->
+            <!--android:text="hhdhdd"-->
+            <!--android:textSize="17sp"-->
+            <!--android:padding="5dp"-->
+            <!--android:textColor="@color/colorPrimary" />-->
+
+
+        <android.support.design.widget.TextInputLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp">
+
+            <EditText
+                android:id="@+id/edPayment"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:editable="false"
+                android:hint="Enter Amount"
+                android:inputType="number"
+                android:maxLines="1"
+                android:padding="15dp"
+                android:singleLine="true" />
+        </android.support.design.widget.TextInputLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:orientation="horizontal"
+        android:layout_margin="10dp">
+
+        <Button
+            android:id="@+id/btnCancel"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:layout_weight="1"
+            android:layout_marginRight="8dp"
+            android:fontFamily="@font/sofiapro_bold"
+            android:text="Close"
+            android:textColor="@color/colorWhite" />
+
+        <Button
+            android:id="@+id/btnSubmit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@color/colorPrimary"
+            android:layout_weight="1"
+            android:layout_marginLeft="8dp"
+            android:fontFamily="@font/sofiapro_bold"
+            android:text="Submit"
+            android:textColor="@color/colorWhite" />
+
+    </LinearLayout>
+</RelativeLayout>

@@ -1,0 +1,323 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".activity.WorkHistoryDetailActivity">
+
+    <android.support.v4.widget.NestedScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvDate"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawablePadding="10dp"
+                android:text="fdhfdf"
+                android:layout_weight="1"
+                android:fontFamily="@font/sofiapro_bold"
+                android:padding="5dp"
+                android:textColor="@color/colorPrimary"/>
+
+                <TextView
+                    android:id="@+id/tvNextDate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="fdhfdf"
+                    android:layout_weight="1"
+                    android:gravity="end"
+                    android:fontFamily="@font/sofiapro_bold"
+                    android:padding="5dp"
+                    android:textColor="@color/colorPrimary" />
+
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/ic_user"
+                android:drawablePadding="10dp"
+                android:text="fdhfdf"
+                android:fontFamily="@font/sofiapro_bold"
+                android:gravity="center_vertical"
+                android:padding="5dp"
+               />
+
+            <TextView
+                android:id="@+id/tvWorkTime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:text="fdhfdf"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/sofiapro_bold"
+                android:gravity="center_vertical"
+                android:drawableLeft="@drawable/ic_time"
+                android:padding="5dp"
+               />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvAddress"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawableLeft="@drawable/ic_action_address"
+                android:drawablePadding="10dp"
+                android:text="fdhfdf"
+                android:layout_weight="1"
+                android:fontFamily="@font/sofiapro_bold"
+                android:gravity="center_vertical"
+                android:padding="5dp" />
+
+            <TextView
+                android:id="@+id/tvContact"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawableLeft="@drawable/ic_action_phone"
+                android:drawablePadding="10dp"
+                android:text="fdhfdf"
+                android:layout_weight="1"
+                android:fontFamily="@font/sofiapro_bold"
+                android:gravity="center_vertical"
+                android:padding="5dp" />
+
+            </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/tvCustName"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:text="fdhfdf"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/ic_add_person"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/sofiapro_bold"
+                android:gravity="center_vertical"
+                android:padding="5dp" />
+
+            <TextView
+                android:id="@+id/tvCustContacat"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:drawableLeft="@drawable/ic_customer_contact"
+                android:drawablePadding="10dp"
+                android:layout_weight="1"
+                android:text="fdhfdf"
+                android:fontFamily="@font/sofiapro_bold"
+                android:gravity="center_vertical"
+                android:padding="5dp" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvDicount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:text="fdhfdf"
+                android:drawableLeft="@drawable/ic_discount"
+                android:drawablePadding="10dp"
+                android:fontFamily="@font/sofiapro_bold"
+                android:gravity="center_vertical"
+                android:padding="5dp" />
+
+            <TextView
+                android:id="@+id/tvTotalAmount"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:drawableLeft="@drawable/ic_total_amount"
+                android:drawablePadding="10dp"
+                android:text="2000/-"
+                android:textColor="@color/colorPrimary"
+                android:textSize="17sp"
+                android:fontFamily="@font/sofiapro_bold"
+                android:layout_gravity="end"
+                android:padding="5dp" />
+        </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Lower Tank :"
+                    android:layout_weight="1.1"
+                    android:fontFamily="@font/sofiapro_bold"
+                    android:padding="5dp"
+
+                    />
+
+                <TextView
+                    android:id="@+id/tvLowerTank"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="fdhfdf"
+                    android:layout_weight="1.3"
+                    android:fontFamily="@font/sofiapro_light"
+                    android:padding="5dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:text="Upper Tank :"
+                    android:layout_weight="1.1"
+                    android:fontFamily="@font/sofiapro_bold"
+                    android:padding="5dp"
+                    />
+
+                <TextView
+                    android:id="@+id/tvUpperTank"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="10dp"
+                    android:drawablePadding="10dp"
+                    android:text="fdhfdf"
+                    android:layout_weight="1.3"
+                    android:fontFamily="@font/sofiapro_light"
+                    android:gravity="center_vertical"
+                    android:padding="5dp"
+                    />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Upper Tank Cost:"
+                    android:layout_weight="1"
+                   android:layout_marginLeft="10dp"
+                    android:fontFamily="@font/sofiapro_bold"
+                    android:padding="5dp"
+                    />
+
+                <TextView
+                    android:id="@+id/tvLowerTankCost"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="fdhfdf"
+                    android:layout_weight="1.3"
+                    android:fontFamily="@font/sofiapro_light"
+                    android:padding="5dp"
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Upper Tank Cost:"
+                    android:layout_weight="1"
+                    android:fontFamily="@font/sofiapro_bold"
+                    android:padding="5dp"
+                    />
+
+                <TextView
+                    android:id="@+id/tvUpperTankCost"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="fdhfdf"
+                    android:layout_weight="1.3"
+                    android:fontFamily="@font/sofiapro_light"
+                    android:padding="5dp"
+                    />
+
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginRight="10dp"
+                android:fontFamily="@font/sofiapro_bold"
+                android:textColor="@color/colorPrimary"
+                android:text="Remark" />
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="0.5dp"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:background="@android:color/darker_gray" />
+
+            <TextView
+                android:id="@+id/tvRemark"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="10dp"
+                android:fontFamily="@font/sofiapro_light"
+                android:text=""
+                android:textColor="@color/colorPrimaryDark"
+                android:textSize="15sp" />
+
+            <android.support.v7.widget.RecyclerView
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="5dp"
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5dp"
+                android:layout_marginBottom="5dp" />
+
+        </LinearLayout>
+    </android.support.v4.widget.NestedScrollView>
+
+
+</RelativeLayout>
